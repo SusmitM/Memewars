@@ -21,7 +21,8 @@ body {
  
  } */
 .meme1 {
-     max-height: 300px;
+     height: 300px;
+     min-height: 250px;
      width: 275px;  
     border: 0.1rem solid black;
     flex-basis: 20%;
@@ -29,8 +30,18 @@ body {
 }
 
 .meme {
-     max-height: 300px;
+     height: 300px;
+     min-height: 250px;
      width: 275px;  
     border: 0.1rem solid black;
     flex-basis: 27%;
 }
+.button-five {
+    margin-top: 5px;
+    display: block;
+    background-color: #50d8d7;
+    border-radius: 30px;
+    padding: 12px;
+    font-size: 25px;
+    font-weight: 300;
+  }
