@@ -21,16 +21,16 @@ body {
  
  } */
 .meme1 {
-     height: 300px;
-     max-width: 275px;  
-    brdoer: 0.1rem solid black;
+     max-height: 300px;
+     width: 275px;  
+    border: 0.1rem solid black;
     flex-basis: 20%;
 
 }
 
 .meme {
-     height: 300px;
-     max-width: 275px;  
+     max-height: 300px;
+     width: 275px;  
     border: 0.1rem solid black;
     flex-basis: 27%;
 }
