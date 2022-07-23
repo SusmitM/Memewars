@@ -1,7 +1,36 @@
-body{
+body {
     background: linear-gradient(109.6deg, rgb(151, 213, 255) 11.2%, rgb(255, 155, 185) 91.1%);
 }
-.container{
-    margin-top: 12%;
-    margin-left: 30%;
+
+.container {
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* 
+.card1{
+   border: 0.1rem solid black;
+    flex-basis: 27%;
+
+}
+.card2{
+    border: 0.1rem solid black;
+     flex-basis: 27%;
+ 
+ } */
+.meme1 {
+     height: 300px;
+     max-width: 275px;  
+    brdoer: 0.1rem solid black;
+    flex-basis: 20%;
+
+}
+
+.meme {
+     height: 300px;
+     max-width: 275px;  
+    border: 0.1rem solid black;
+    flex-basis: 27%;
 }
