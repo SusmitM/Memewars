@@ -16,7 +16,7 @@ $.getJSON("https://meme-api.herokuapp.com/gimme", function (data) {
 
     btnDownload1.addEventListener('click', () => {
         let imagePath = data.url;
-        let fileName = "memeFromMemeWars";
+        let fileName = "memeFromMemeWars.jpg";
         saveAs(imagePath, fileName);
     });
 
@@ -35,7 +35,7 @@ $.getJSON("https://meme-api.herokuapp.com/gimme/2", function (data) {
 
     btnDownload2.addEventListener('click', () => {
         let imagePath = data.memes[0].url;
-        let fileName = "memeFromMemeWars";
+        let fileName = "memeFromMemeWars.jpg";
         saveAs(imagePath, fileName);
     });
     
