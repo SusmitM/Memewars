@@ -2,29 +2,48 @@ body {
     background: linear-gradient(109.6deg, rgb(151, 213, 255) 11.2%, rgb(255, 155, 185) 91.1%);
 }
 
+.header{
+    font-family: "Circular", Arial, sans-serif;
+    color: rgb(9, 11, 23);
+    box-sizing: border-box;
+    font-size: 45px;
+    font-weight: 650;
+    text-align: center;
+}
+
 .container {
-    margin-top: 15%;
+    margin-top: 5%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-/* 
+
 .card1{
+  
+   padding-bottom: 7px;
+   box-shadow: 0px 0px 2px 2px black;
    border: 0.1rem solid black;
-    flex-basis: 27%;
+   border-radius: 0% 0% 5% 5%;
+ 
+   
+
 
 }
 .card2{
+   
+    padding-bottom: 7x;
+    box-shadow: 0px 0px 2px 2px black;
     border: 0.1rem solid black;
-     flex-basis: 27%;
+    border-radius: 0% 0% 5% 5%;
+  
  
- } */
+ } 
 .meme1 {
      height: 300px;
      min-height: 250px;
      width: 275px;  
-    border: 0.1rem solid black;
+    border: 0.1rem solid bisque;
     flex-basis: 20%;
 
 }
@@ -33,15 +52,37 @@ body {
      height: 300px;
      min-height: 250px;
      width: 275px;  
-    border: 0.1rem solid black;
+    border: 0.1rem solid bisque;
     flex-basis: 27%;
 }
-.button-five {
-    margin-top: 5px;
-    display: block;
+
+.btn-div{
+    display: flex;
+}
+.like-btn {
+    margin: 3px 0px 0px 20px;
+   
     background-color: #50d8d7;
     border-radius: 30px;
-    padding: 12px;
-    font-size: 25px;
+    padding: 10px;
+    font-size: 19px;
     font-weight: 300;
   }
+  #downld-btn1 {
+     margin: 3px 0px 0px 150px; 
+   
+    background-color: #50d8d7;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: 300;
+  }
+  #downld-btn2{
+    margin: 3px 0px 0px 150px; 
+  
+   background-color: #50d8d7;
+   border-radius: 25px;
+   padding: 12px;
+   font-size: 19px;
+   font-weight: 300;
+ }
