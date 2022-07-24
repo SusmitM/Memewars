@@ -12,9 +12,8 @@ body {
 }
 
 .footer {
-    bottom:0;
-    left:0;
-    width:100%;
+    flex-basis: 100%;
+    margin-top: 10px;
     height: 90px;
     font-family: "Inter", sans-serif;
     color: white;
