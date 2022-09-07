@@ -1,3 +1,6 @@
+html{
+    height: 100%;
+}
 body {
     background: linear-gradient(109.6deg, rgb(151, 213, 255) 11.2%, rgb(255, 155, 185) 91.1%);
 }
@@ -18,12 +21,9 @@ body {
     font-family: "Inter", sans-serif;
     color: white;
     text-align: center;
-    font-size: 25px;
-    font-weight: 500;
-    text-shadow: -1px 1px 0 #000,
-        1px 1px 0 #000,
-        1px -1px 0 #000,
-        -1px -1px 0 #000;
+    font-size: 20px;
+    font-weight: 400;
+    
 
 
 }
