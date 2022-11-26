@@ -69,7 +69,7 @@ body {
     margin: 0px 10px 0px 10px;
 }
 
-.meme1 {
+.meme2 {
     height: 300px;
     min-height: 250px;
     width: 275px;
@@ -78,7 +78,7 @@ body {
 
 }
 
-.meme {
+.meme1 {
     height: 300px;
     min-height: 250px;
     width: 275px;
@@ -94,7 +94,7 @@ body {
     margin: 3px 0px 0px 20px;
 
     background-color: #50d8d7;
-    border-radius: 30px;
+    border-radius: 35px;
     padding: 10px;
     font-size: 19px;
     font-weight: 300;
@@ -104,23 +104,23 @@ body {
     margin: 3px 0px 0px 20px;
 
     background-color: #50d8d7;
-    border-radius: 30px;
+    border-radius: 35px;
     padding: 10px;
     font-size: 19px;
     font-weight: 300;
 }
 
-#downld-btn1 {
+#expand-btn1 {
     margin: 3px 0px 0px 150px;
 
     background-color: #50d8d7;
-    border-radius: 30px;
-    padding: 10px;
+    border-radius: 25px;
+    padding: 12px;
     font-size: 19px;
     font-weight: 300;
 }
 
-#downld-btn2 {
+#expand-btn2 {
     margin: 3px 0px 0px 150px;
 
     background-color: #50d8d7;
