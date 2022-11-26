@@ -6,7 +6,7 @@ const app = express()
 const Port= process.env.PORT || 2020
 
 app.use(cors({
-  origin: "https://memexwars.herokuapp.com"
+  origin: "*"
 }));
 
 app.use('/', express.static(__dirname + '/src'))
