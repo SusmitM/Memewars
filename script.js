@@ -6,17 +6,17 @@ let img1 = document.querySelector("meme1");
 let img2 = document.querySelector("meme2");
 
 
-let url1 = "https://meme-api.herokuapp.com/gimme";
-let url2 = "https://meme-api.herokuapp.com/gimme/2";
+let url1 = "https://meme-api.com/gimme";
+let url2 = "https://api.pymeme.repl.co/";
 
 
 // For the first meme Box
 fetch(url1)
     .then(response => response.json())
     .then((data) => {
-        console.log(data);
+        console.log(data.url);
 
-        var meme1 = data.preview[1];
+        var meme1 = data.url;
 
 
         // To show the meme
@@ -27,9 +27,10 @@ fetch(url1)
 
         btnExpand1.addEventListener('click', () => {
 
-            let imagePath = data.url;
-            
+            var imagePath = data.postLink;
             $("#expand-btn1").prop("href", imagePath)
+
+
         });
 
     });
@@ -39,8 +40,9 @@ fetch(url1)
 fetch(url2)
     .then(response => response.json())
     .then((data) => {
-        console.log(data);
-        var meme2 = data.memes[0].preview[1];
+
+        var secondKey = Object.keys(data.meme)[2];
+        var meme2 = data.meme[secondKey];
 
 
         // To show the meme
@@ -49,10 +51,15 @@ fetch(url2)
 
         //To download the meme
         btnExpand2.addEventListener('click', () => {
-            let imagePath = data.memes[0].url;
+            var fourthKey = Object.keys(data.meme)[4];
+            var imagePath = data.meme[fourthKey];
 
-             $("#expand-btn2").prop("href", imagePath)
+
+            $("#expand-btn2").prop("href", imagePath)
+
         });
+
+
 
     });
 
