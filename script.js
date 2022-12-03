@@ -1,11 +1,3 @@
-let btnExpand1 = document.getElementById("expand-btn1");
-let btnExpand2 = document.getElementById("expand-btn2");
-let likeBtn1 = document.getElementById("like-btn1");
-let likeBtn2 = document.getElementById("like-btn2");
-let img1 = document.querySelector("meme1");
-let img2 = document.querySelector("meme2");
-
-
 let url1 = "https://meme-api.com/gimme";
 let url2 = "https://api.pymeme.repl.co/";
 
@@ -25,10 +17,10 @@ fetch(url1)
 
         //To download the meme
 
-        btnExpand1.addEventListener('click', () => {
+        $("#expand-btn1").click(() => {
 
-            var imagePath = data.postLink;
-            $("#expand-btn1").prop("href", imagePath)
+
+            $("#expand-btn1").prop("href", meme1)
 
 
         });
@@ -50,12 +42,9 @@ fetch(url2)
 
 
         //To download the meme
-        btnExpand2.addEventListener('click', () => {
-            var fourthKey = Object.keys(data.meme)[4];
-            var imagePath = data.meme[fourthKey];
+        $("#expand-btn2").click(() => {
 
-
-            $("#expand-btn2").prop("href", imagePath)
+            $("#expand-btn2").prop("href", meme2)
 
         });
 
@@ -66,9 +55,10 @@ fetch(url2)
 
 
 //EventListeners for both the buttons
-likeBtn1.addEventListener('click', () => {
+$("#like-btn1").click(() => {
     window.location.reload();
 });
-likeBtn2.addEventListener('click', () => {
+
+$("#like-btn2").click(() => {
     window.location.reload();
 });
