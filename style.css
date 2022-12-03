@@ -91,13 +91,13 @@ body {
 }
 
 #like-btn1 {
-    margin: 3px 0px 0px 20px;
-
+    margin: 3px 0px 0px 20px;  
     background-color: #50d8d7;
     border-radius: 35px;
     padding: 10px;
     font-size: 19px;
     font-weight: 300;
+    cursor: pointer;
 }
 
 #like-btn2 {
@@ -108,6 +108,7 @@ body {
     padding: 10px;
     font-size: 19px;
     font-weight: 300;
+    cursor: pointer;
 }
 
 #expand-btn1 {
